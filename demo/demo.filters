@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{1e71d547-5432-495c-9f66-038fa3840e84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\include">
+      <UniqueIdentifier>{450f9b26-6de6-4b51-9f96-f52f52a600ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\src">
+      <UniqueIdentifier>{29f961bd-297b-4770-923d-3a24814dbe28}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zhNet_Core\lib\src\socket.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zhNet_Core\lib\src\platform.c">
+      <Filter>lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\http\zhHttp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\zhNet_Core\lib\include\socket.h">
+      <Filter>lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zhNet_Core\lib\include\platform.h">
+      <Filter>lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\http\zhHttp.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
